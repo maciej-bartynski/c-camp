@@ -1,0 +1,27 @@
+{
+  "name": "coders-camp-2018-personal-website",
+  "version": "1.0.0",
+  "description": "web-developing, front-end",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/rollup -c",
+    "start": "npm run build -- --watch"
+  },
+  "author": "Maciej Bartyński",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "node-sass-package-importer": "^5.2.0",
+    "rollup": "^0.63.5",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-scss": "^0.4.0",
+    "rollup-plugin-uglify": "^4.0.0",
+    "rollup-watch": "^4.3.1"
+  }
+}
