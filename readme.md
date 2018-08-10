@@ -1,0 +1,1 @@
+Projekt grupowy - CodersCamp2018. Dane autorów w stopce.
